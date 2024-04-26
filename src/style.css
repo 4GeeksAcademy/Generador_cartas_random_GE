@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #0e7e12;
+}
+#carta {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 3% auto;
+}
+#simboloArriba {
+  text-align: start;
+  position: relative;
+  left: 15px;
+  color: red;
+  font-size: 100px;
+}
+#numero {
+  color: white;
+  font-size: 100px;
+  margin: 30%;
+  position: relative;
+  transform: translateY(-60%);
+  text-align: center;
+}
+#simboloAbajo {
+  position: relative;
+  right: 15px;
+  bottom: 35%;
+  color: red;
+  font-size: 100px;
+  transform: rotate(-180deg);
+}
